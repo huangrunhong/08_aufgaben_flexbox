@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+body {
+    overflow-y: hidden;
+    font-family:Raleway ;
+}
+header {
+    box-shadow: 0 0 2px #666;
+ 
+    height: 76px;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    padding: 10px 186px 11px 186px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+    margin-top: 11px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666;
+}
+.logo:hover {
+    color: #333;
+}
+li {
+    margin: 20px 0;
+    font-size: 13px;
+    font-weight: 500;
+   
+}
+li a{
+    color: #333;
+}
+li a:hover{
+    color: #337ab7;
+}
+
+main {
+    background-image: url(https://media.discordapp.net/attachments/1144234084789407870/1156920419689959595/photo-1443527216320-7e744084f5a7-1.jpg.png?ex=6516b99a&is=6515681a&hm=dd5f77425bab8611f8b5a0f8c215f47d71ce09f9c67b47ab696eb3dbf96f4c8d&=&width=1668&height=1028);
+    background-size: cover;
+    height: 956px ;
+    color: white;
+}
+section {
+  padding-top: 394px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+section h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+section p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+div{
+    margin-top: 51px;
+}
+.read_more{
+    text-decoration: none;
+    color: white;
+    padding: 15px 61px;
+    border: 2px solid 
+    #745CF9;
+    background-color: 
+    #745CF9;
+}
+.read_more:hover{
+    border: rgb(43, 43, 204);
+    background-color: rgb(43, 43, 204);
+}
+.download{
+    text-decoration: none;
+    color: white;
+    padding: 15px 42px;
+    border: 2px solid white;
+    margin-left: 8px;
+}
+.download:hover {
+    background-color: white;
+    color: #333;
+}
