@@ -12,10 +12,12 @@ section > * {
     height: 100vh;
     width: 25vw;
     filter: grayscale(100%); 
+    background-repeat: none;
 }
 section > *:hover {
-    width: 50vw;
+    width: 37vw;
     filter: none;
+    background-repeat: none;
    transition: all 300ms ease-in-out;
 }
 .pasta {
